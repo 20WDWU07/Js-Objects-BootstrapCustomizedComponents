@@ -1,0 +1,26 @@
+$primary : #6C4BEB; //primary
+$secondary : #9E4EF5; //$secondary
+$info :#F54EEE;
+$danger : #EB4B94;
+$light: whitesmoke;
+$dark: lightslategray;
+$jumbotron-bg : #BB52DE; //jumbotron background
+$display1-size : 5rem;
+$display2-size : 4rem;
+$display3-size : 3rem;
+$display4-size : 2rem;
+$headings-font-family : "Helvetica";
+$spacer: 2rem !default; //margin and padding overall spacing size
+
+
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "../bootstrap-4.5.3/scss/bootstrap.scss";
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
